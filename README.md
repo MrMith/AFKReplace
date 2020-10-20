@@ -12,8 +12,8 @@ Put AFKReplace.dll under the release tab into sm_plugins folder.
 |   :---:                       |     :---:       |    :---:      |    :---:    |
 | ar_disable                    | Boolean         | False         | Disables this plugin.    |
 | ar_broadcast                  | Boolean         | True          | Should this plugin do a personal broadcast to the AFK player every second warning that they will replaced within 15 seconds |
-| ar_afk_time                   | Float           | 120           | How many seconds someone is AFK till they get replaced. |
-| ar_afk_distance               | Int             | 0.11          | Distance in meters someone has to move till they are not marked as AFK. |
+| ar_time                       | Float           | 120           | How many seconds someone is AFK till they get replaced. |
+| ar_distance                   | Int             | 0.11          | Distance in meters someone has to move till they are not marked as AFK. |
 | ar_will_replace_string        | String          | You will be AFK replaced in {0} seconds if you don't move!             | Broadcast that AFK player will receive as a warning before they're replaced. |
 | ar_replaced_string            | Int             | You have been replaced because you were AFK!             | Broadcast that AFK player will receive when they get replaced. |
 

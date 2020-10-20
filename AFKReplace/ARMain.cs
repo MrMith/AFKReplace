@@ -25,10 +25,10 @@ namespace AFKReplace
 		public readonly bool broadcast = true;
 
 		[ConfigOption]
-		public readonly float afk_time = 120f;
+		public readonly float time = 120f;
 
 		[ConfigOption]
-		public readonly float afk_distance = 0.11f;
+		public readonly float distance = 0.11f;
 
 		[ConfigOption]
 		public readonly string will_replace_string = "You will be AFK replaced in {0} seconds if you don't move!";

@@ -31,7 +31,7 @@ namespace AFKReplace
 			{
 				plugin.PluginManager.DisablePlugin(plugin);
 			}
-			AFK_Time = plugin.GetConfigFloat(plugin.Details.configPrefix + "_afk_time");
+			AFK_Time = plugin.GetConfigFloat(plugin.Details.configPrefix + "_time");
 			if(AFK_Time < 15)
 			{
 				AFK_Time = 15;
@@ -39,7 +39,7 @@ namespace AFKReplace
 			WillBeReplaced = plugin.GetConfigString(plugin.Details.configPrefix + "_will_replace_string");
 			HaveBeenReplaced = plugin.GetConfigString(plugin.Details.configPrefix + "_replaced_string");
 			ShouldBroadcast = plugin.GetConfigBool(plugin.Details.configPrefix + "_broadcast");
-			AFK_Distance = plugin.GetConfigFloat(plugin.Details.configPrefix + "_afk_distance");
+			AFK_Distance = plugin.GetConfigFloat(plugin.Details.configPrefix + "_distance");
 
 			foreach (var ply in ReferenceHub.GetAllHubs().Values)
 			{
