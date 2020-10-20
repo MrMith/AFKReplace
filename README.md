@@ -1,3 +1,5 @@
+Credit to https://github.com/Cyanox62/DCReplace
+
 # AFKReplace
 When someone is AFK for a configured amount of time they get replaced by a random spectator.
 
