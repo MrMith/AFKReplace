@@ -52,7 +52,7 @@ namespace AFKReplace
 			if (Ply.TryGetComponent(out AFKManager AFKManager))
 				return;
 
-			if (Ply == ReferenceHub.HostHub /*|| PermissionsHandler.IsPermitted(Ply.serverRoles.Permissions, PlayerPermissions.AFKImmunity)*/) return;
+			if (Ply == ReferenceHub.HostHub || PermissionsHandler.IsPermitted(Ply.serverRoles.Permissions, PlayerPermissions.AFKImmunity)) return;
 
 			AFKManager AFKManagerComp = Ply.gameObject.AddComponent<AFKManager>();
 

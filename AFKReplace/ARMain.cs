@@ -10,7 +10,7 @@ namespace AFKReplace
 		name = "AFKReplace",
 		description = "When someone is AFK for a configured amount of time they get replaced by someone spectating.",
 		id = "mith.AFKReplace",
-		version = "1.0.0",
+		version = "1.0.1",
 		configPrefix = "ar",
 		SmodMajor = 3,
 		SmodMinor = 9,
